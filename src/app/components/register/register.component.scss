@@ -1,0 +1,71 @@
+.register {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/images/login-background.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+
+    min-width: 350px;
+    background-color:rgb(104, 143, 143);
+  width: 20%;
+  height: 660px;
+  min-width: 350px;
+  border-radius: 15px;
+  }
+  .mb-4 {
+    padding: 0 20px
+  }
+  .mt-4{
+    font-size: medium;
+  }
+  .btn {
+    padding: 7px 20px;
+    color: white;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+
+  .btn {
+    padding: 7px 20px;
+    color: white;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+
+  span {
+    &.helper-text {
+      font-size: 11px;
+    }
+  }
+  p {
+    &.login {
+      margin-top: 10px;
+      font-size: 20px;
+      text-transform: capitalize;
+    }
+  }
+
+  .sign-up {
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .register {
+    .container {
+        padding-top: 240px;
+        h3 {
+          margin-bottom: 0px!important;
+        }
+      }
+  }
+
+}
